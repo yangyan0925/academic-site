@@ -55,3 +55,16 @@ exclude:
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+# 菜单栏配置
+nav:
+  - name: Yang Yan
+    link: /
+  - name: Publications
+    link: /publications/
+  - name: Talks
+    link: /talks/
+  - name: Teaching
+    link: /teaching/
+  - name: Services
+    link: /services/
+
