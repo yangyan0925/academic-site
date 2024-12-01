@@ -59,6 +59,17 @@
 
         <br>
         <br>
+        <!-- 菜单栏 -->
+        {% if site.nav %}
+        <nav>
+            <ul>
+                {% for item in site.nav %}
+                <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+        {% endif %}
+        
         <div class="social-icons">
         {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
